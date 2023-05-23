@@ -4,9 +4,9 @@ public class JobFirst {
 
 	public static void main(String[] args) {
 	  try {
-		System.out.println("IQE-T4 Triggered...");
-		System.out.println("IQE-T2 Triggered...");
-		System.out.println("IQE-T1 Triggered...");
+		System.out.println("IQE-T7 Triggered...");
+		System.out.println("IQE-T8 Triggered...");
+		//System.out.println("IQE-T1 Triggered...");
 		
 		Process proc = Runtime.getRuntime().exec("java -jar HeadlessAutomationJar.jar");
 		proc.waitFor();

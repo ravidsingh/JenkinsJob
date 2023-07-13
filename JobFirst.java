@@ -4,12 +4,12 @@ public class JobFirst {
 
 	public static void main(String[] args) {
 	  try {
-		System.out.println("IQE-T7 Triggered...");
-		System.out.println("IQE-T8 Triggered...");
-		System.out.println("IQE-T1 Triggered...");
-		System.out.println("IQE-T2 Triggered...");
-		System.out.println("IQE-T9 Triggered...");
-		System.out.println("IQE-T7 Triggered...");
+		System.out.println("TC-7 Triggered...");
+		System.out.println("TC-8 Triggered...");
+		System.out.println("TC-1 Triggered...");
+		System.out.println("TC-2 Triggered...");
+		System.out.println("TC-9 Triggered...");
+		System.out.println("TC-7 Triggered...");
 		
 		Process proc = Runtime.getRuntime().exec("java -jar HeadlessAutomationJar.jar");
 		proc.waitFor();
